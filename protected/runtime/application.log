@@ -1,0 +1,788 @@
+2016/08/25 10:41:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/album/face/1_2016-06-02_4c1a6c32ee224767530926152c6875f5.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('images/album/fa...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/album/face/1_2016-06-02_4c1a6c32ee224767530926152c6875f5.jpg
+HTTP_REFERER=http://local.jiazheng123.cn/
+---
+2016/08/25 10:41:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/album/face/1_2016-06-02_1bdd0eabaf719b562fe61f944addf7b5.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('images/album/fa...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/album/face/1_2016-06-02_1bdd0eabaf719b562fe61f944addf7b5.jpg
+HTTP_REFERER=http://local.jiazheng123.cn/
+---
+2016/08/25 10:41:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/album/face/1_2016-06-02_f493176f813005c29efa9a01bdf0fa89.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('images/album/fa...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/album/face/1_2016-06-02_f493176f813005c29efa9a01bdf0fa89.jpg
+HTTP_REFERER=http://local.jiazheng123.cn/
+---
+2016/08/25 10:42:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/album/face/1_2016-06-02_1bdd0eabaf719b562fe61f944addf7b5.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('images/album/fa...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/album/face/1_2016-06-02_1bdd0eabaf719b562fe61f944addf7b5.jpg
+HTTP_REFERER=http://local.jiazheng123.cn/
+---
+2016/08/25 10:42:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/album/face/1_2016-06-02_f493176f813005c29efa9a01bdf0fa89.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('images/album/fa...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/album/face/1_2016-06-02_f493176f813005c29efa9a01bdf0fa89.jpg
+HTTP_REFERER=http://local.jiazheng123.cn/
+---
+2016/08/25 10:42:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/album/face/1_2016-06-02_4c1a6c32ee224767530926152c6875f5.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('images/album/fa...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/album/face/1_2016-06-02_4c1a6c32ee224767530926152c6875f5.jpg
+HTTP_REFERER=http://local.jiazheng123.cn/
+---
+2016/08/25 10:52:03 [error] [php] Use of undefined constant BATH_PATH - assumed 'BATH_PATH' (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\main.php:22)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(9): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\main.php (22)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (9)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 10:56:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/logo.png
+HTTP_REFERER=http://local.jiazheng123.cn/
+---
+2016/08/25 10:58:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+---
+2016/08/25 10:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+---
+2016/08/25 10:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+---
+2016/08/25 11:00:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+---
+2016/08/25 11:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+---
+2016/08/25 11:01:05 [error] [php] Undefined variable: prev (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(10): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (10)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:01:23 [error] [php] Undefined variable: prev (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(14): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionTejia()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/web/tejia
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (14)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:01:26 [error] [php] Undefined variable: prev (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(14): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionTejia()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/web/tejia
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (14)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:01:53 [error] [php] Undefined variable: prev (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(15): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionTejia()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/web/tejia
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (15)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:01:56 [error] [php] Undefined variable: prev (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(10): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (10)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:02:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/logo.png
+HTTP_REFERER=http://local.jiazheng123.cn/
+---
+2016/08/25 11:05:26 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.assets" is not defined.' in D:\wwwroot\www.jiazheng123.cn\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\base\CModule.php(105): CComponent->__get('assets')
+#1 D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\main.php(22): CModule->__get('assets')
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\CBaseController.php(126): require('D:\\wwwroot\\www....')
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\wwwroot\\www....', Array, true)
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\\wwwroot\\www....', Array, true)
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('\n<!--subnav-->\n...')
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('\n<!--subnav-->\n...')
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php(144): CBaseController->endContent()
+#10 D:\wwwroot\www.jiazheng123.cn\framework\web\CBaseController.php(126): require('D:\\wwwroot\\www....')
+#11 D:\wwwroot\www.jiazheng123.cn\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\wwwroot\\www....', Array, true)
+#12 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): CBaseController->renderFile('D:\\wwwroot\\www....', Array, true)
+#13 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(10): CController->render('index')
+#14 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#15 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): CController->run('')
+#19 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2016/08/25 11:16:09 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(10): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (10)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:17:19 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:17:39 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:18:23 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:18:23 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:18:24 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:18:24 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:18:24 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:20:51 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:160)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (160)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:20:51 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:160)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (160)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:20:53 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:160)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (160)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:21:51 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:160)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (160)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:21:52 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:160)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (160)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:21:52 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:160)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (160)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:21:52 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:160)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (160)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:22:06 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:160)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (160)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:22:23 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:164)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (164)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:22:39 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:170)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (170)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:23:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia/rightside_banner".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia/rightside...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia/rightside_banner/?callback=jQuery112107132152772974223_1472095383693&_=1472095383694
+HTTP_REFERER=http://local.jiazheng123.cn/web/tejia
+---
+2016/08/25 11:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "web".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2016/08/25 11:27:37 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(11): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (11)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:28:30 [error] [exception.CException] exception 'CException' with message 'Property "WebController.createUrl" is not defined.' in D:\wwwroot\www.jiazheng123.cn\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php(130): CComponent->__get('createUrl')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\web\CBaseController.php(126): require('D:\\wwwroot\\www....')
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\wwwroot\\www....', Array, true)
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): CBaseController->renderFile('D:\\wwwroot\\www....', Array, true)
+#4 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(12): CController->render('tejia1')
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2016/08/25 11:30:10 [error] [exception.CException] exception 'CException' with message 'Property "WebController.createUrl" is not defined.' in D:\wwwroot\www.jiazheng123.cn\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php(130): CComponent->__get('createUrl')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\web\CBaseController.php(126): require('D:\\wwwroot\\www....')
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\wwwroot\\www....', Array, true)
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): CBaseController->renderFile('D:\\wwwroot\\www....', Array, true)
+#4 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(12): CController->render('tejia1')
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2016/08/25 11:34:21 [error] [php] Undefined variable: page (D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php:125)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(12): WebController->render()
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\www.jiazheng123.cn\protected\views\layouts\column1.php (125)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (12)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:35:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia/rightside_banner".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia/rightside...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia/rightside_banner/?callback=jQuery11210979376464150846_1472096115414&_=1472096115415
+HTTP_REFERER=http://local.jiazheng123.cn/web/tejia?page=0
+---
+2016/08/25 11:38:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia/rightside_banner".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia/rightside...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia/rightside_banner/?callback=jQuery112101319670786615461_1472096329937&_=1472096329938
+HTTP_REFERER=http://local.jiazheng123.cn/web/tejia?page=0
+---
+2016/08/25 11:38:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia/rightside_banner".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia/rightside...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia/rightside_banner/?callback=jQuery1121046143823815509677_1472096335905&_=1472096335906
+HTTP_REFERER=http://local.jiazheng123.cn/web/tejia?page=2
+---
+2016/08/25 11:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia/rightside_banner".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia/rightside...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia/rightside_banner/?callback=jQuery112102792199491523206_1472096342728&_=1472096342729
+HTTP_REFERER=http://local.jiazheng123.cn/web/tejia?page=3
+---
+2016/08/25 11:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia/rightside_banner".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia/rightside...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia/rightside_banner/?callback=jQuery112104376436276361346_1472096347172&_=1472096347173
+HTTP_REFERER=http://local.jiazheng123.cn/web/tejia?page=4
+---
+2016/08/25 11:39:17 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "shangjia".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php:878
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(782): CController->renderPartial('shangjia', NULL, true)
+#1 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(23): CController->render('shangjia')
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionShangjia()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): CController->run('shangjia')
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('web/shangjia')
+#8 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/shangjia
+HTTP_REFERER=http://local.jiazheng123.cn/web/temai
+---
+2016/08/25 11:41:35 [error] [php] Use of undefined constant BATH_PATH - assumed 'BATH_PATH' (D:\wwwroot\www.jiazheng123.cn\protected\views\web\shangjia.php:2)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(869): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(782): WebController->renderPartial()
+#2 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(23): WebController->render()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionShangjia()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/web/shangjia
+in D:\wwwroot\www.jiazheng123.cn\protected\views\web\shangjia.php (2)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (23)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:43:01 [error] [php] Use of undefined constant BATH_PATH - assumed 'BATH_PATH' (D:\wwwroot\www.jiazheng123.cn\protected\views\web\shangjia.php:42)
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(869): WebController->renderFile()
+#1 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(782): WebController->renderPartial()
+#2 D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php(23): WebController->render()
+#3 D:\wwwroot\www.jiazheng123.cn\framework\web\actions\CInlineAction.php(49): WebController->actionShangjia()
+#4 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(286): WebController->runAction()
+#6 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(265): WebController->runActionWithFilters()
+#7 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): WebController->run()
+#8 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.jiazheng123.cn\index.php(12): CWebApplication->run()
+REQUEST_URI=/web/shangjia
+in D:\wwwroot\www.jiazheng123.cn\protected\views\web\shangjia.php (42)
+in D:\wwwroot\www.jiazheng123.cn\protected\controllers\WebController.php (23)
+in D:\wwwroot\www.jiazheng123.cn\index.php (12)
+2016/08/25 11:44:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia/rightside_banner".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia/rightside...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia/rightside_banner/?callback=jQuery1121044268853566609323_1472096649819&_=1472096649820
+HTTP_REFERER=http://local.jiazheng123.cn/web/tejia
+---
+2016/08/25 12:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia/rightside_banner".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia/rightside...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia/rightside_banner/?callback=jQuery112107046548004727811_1472098265712&_=1472098265713
+HTTP_REFERER=http://local.jiazheng123.cn/web/tejia
+---
+2016/08/25 12:11:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia
+---
+2016/08/25 12:11:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia
+---
+2016/08/25 12:11:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia/rightside_banner".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia/rightside...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia/rightside_banner/?callback=jQuery1121018063928140327334_1472098287279&_=1472098287280
+HTTP_REFERER=http://local.jiazheng123.cn/web/tejia
+---
+2016/08/25 12:11:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia
+---
+2016/08/25 12:11:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia
+---
+2016/08/25 12:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia
+---
+2016/08/25 12:11:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia/rightside_banner".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia/rightside...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia/rightside_banner/?callback=jQuery112102432073699310422_1472098312923&_=1472098312924
+HTTP_REFERER=http://local.jiazheng123.cn/web/tejia
+---
+2016/08/25 12:12:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tejia/rightside_banner".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('tejia/rightside...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/tejia/rightside_banner/?callback=jQuery112107115041350480169_1472098333711&_=1472098333712
+HTTP_REFERER=http://local.jiazheng123.cn/web/tejia
+---
