@@ -1,30 +1,41 @@
 <!doctype html>
 <html>
 <head>
+<meta name="baidu-site-verification" content="SRhzdpnaLs" />
 <meta charset="utf-8"/>
-
-<title>今日特价| 全场1折起，超低价还包邮的打折商品聚合！- 惠时尚</title>
+<title><?php echo $this->menu[$this->action->id]['title'] ?></title>
 <meta name="keywords" content="今日特价，超低价，九块九，九块九包邮，超值，品牌折扣，值得买，惠时尚"/>
-
-<meta name="description" content="网聚全网最优惠的超低价折扣商品。每日千款超值商品实时更新，你最值得关注的特价促销，就在惠时尚今日特价！"/>
-
+<meta name="description" content="<?php echo $this->menu[$this->action->id]['des'] ?>"/>
 <link rel="stylesheet" href="http://mai.sogou.com/assets/css/index.css?v=7.2">
-
-<link rel="icon" href="http://mai.sogou.com/assets/favicon.ico?1" mce_href="favicon.ico" type="image/x-icon">
-
-<link rel="shortcut icon" href="http://mai.sogou.com/assets/favicon.ico?1" mce_href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="<?php echo $this->assets['app'] ?>/images/hui.png" mce_href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="http://mai.sogou.com/assets/css/site.css?v=7.2">
+<link rel="stylesheet" type="text/css" href="<?php echo $this->assets['app'] ?>/css/jia.css">
+<style type="text/css">
+.mactive{
+	background-color:white;
+	border-radius:3px;
+}
+.mactive a{
+	color:red;
+}
+</style>
 </head>
 <body class="">
 
 <div class="nav_bg" pbflag="主导航">
 	<div class="nav cf">
-		<a href="/tejia/" class="logo logo_tej ct" style="background:url('<?php echo $this->assets['app'] ?>/images/logo.png') no-repeat left;height:50px;margin-top:5px;">惠时尚</a>
+		<a href="/" class="logo logo_tej ct" style="background:url('<?php echo $this->assets['app'] ?>/images/logo.png') no-repeat left;height:50px;margin-top:5px;">惠时尚</a>
 		<ul class="nav_list cf">
-			<li current="1" class="active" ><a href="<?php echo $this->createUrl('tejia') ?>" target="_blank">今日特价</a></li>
-			<li ><a href="<?php echo $this->createUrl('temai') ?>" target="_blank" >限时特卖</a></li>
-			<li ><a href="<?php echo $this->createUrl('shangjia') ?>" target="_blank">商家大全</a></li>
-			<li ><a href="<?php echo $this->createUrl('about') ?>" target="_blank">关于我们</a></li>
+			<?php if(!empty($this->menu)){
+				foreach ($this->menu as $key => $value) {
+			?>
+				<li <?php if($this->action->id == $key) echo "class='mactive'" ?>>
+				<a <?php if($this->action->id == $key) echo "style='color:red'" ?> href="<?php echo $value['url'] ?>" target="_blank"><?php echo $value['label'] ?></a>
+				</li>
+			<?php 		
+				}
+			} ?>
+			
 		</ul>
 		<div class="searchbox cf " pbflag="sokuang">
 			<div class="input">

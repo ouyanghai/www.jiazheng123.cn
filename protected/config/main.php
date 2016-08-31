@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'The blog of ouyang',
+	'name'=>'www.jiazheng123.cn',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -21,14 +21,14 @@ return array(
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		'admin',
-		
+		/*
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'ouyang_blog',
+			'password'=>'admin',
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
-		
+		*/
 	),
 
 	// application components
@@ -56,12 +56,12 @@ return array(
 		// uncomment the following to use a MySQL database
 		*/
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=ouyang',
+			'connectionString' => 'mysql:host=192.168.1.122;dbname=taobao_app',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'root',
+			'username' => 'admin',
+			'password' => 'admin',
 			'charset' => 'utf8',
-			'tablePrefix' => 'ou_'
+			'tablePrefix' => ''
 		),
 		
 		'errorHandler'=>array(
