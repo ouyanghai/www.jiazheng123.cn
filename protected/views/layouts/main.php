@@ -39,9 +39,9 @@
 		</ul>
 		<div class="searchbox cf " pbflag="sokuang">
 			<div class="input">
-				<input isNoneResult='' id='search_input' type="text" value='连衣裙'>
+				<input id="search" name="keyword" type="text" value=''>
 			</div>
-			<a id='search_icon' href="#" class="ser_btn"><i class="icon icon_search"></i></a>
+			<a id='search_a' href="javascript:;" class="ser_btn"><i class="icon icon_search"></i></a>
 		</div>
 	</div>
 </div>
@@ -80,9 +80,13 @@
 		<span class="name">超气质雪纺长裙</span>		    
 	</div>	    
 </div>
-<!--增加回传参数--><!--淘宝广告-->
-<div class="tbad">    
-</div>
-<!--/淘宝广告-->
+<script type="text/javascript">
+$(function(){
+	$("#search_a").click(function(){
+		var key = $("#search").val();
+		window.location.href="<?php echo $this->action->id ?>?keyword="+key;
+	})
+});
+</script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 var LIST_LI = 1;
-var LIST_LI_TOTAL = 2;
+var LIST_LI_TOTAL = 4;
 $(function(){
 	$(".banner_list li").eq(0).css("z-index",1).css("opacity",1);
 	$(".round a").eq(0).css("background-color","#fb4472");

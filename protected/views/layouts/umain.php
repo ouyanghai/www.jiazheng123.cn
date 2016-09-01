@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="baidu-site-verification" content="SRhzdpnaLs" />
-    <title>淘宝模板</title>
+    <title><?php echo $this->shop_title; ?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo $this->assets['app'] ?>/css/main.css">
     <script type="text/javascript" src="<?php echo $this->assets['app'] ?>/js/jquery-1.7.2.js"></script>
     <script type="text/javascript" src="<?php echo $this->assets['app'] ?>/js/main.js"></script>

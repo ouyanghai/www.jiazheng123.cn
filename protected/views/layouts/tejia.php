@@ -6,15 +6,15 @@
 	<div class="container " pbflag="二级导航">
 		<div class="subnav_list cf">
 		<!--<a href="/tejia/yugao/"  class="announce"><i class="icon i-horn"></i>精彩预告</a>-->
-			<a href="#"  class="all active">全部</a>
-			<a href='#'>品牌优选</a>
-			<a href='#'  >9块9专场<i class="icon i-hot-2"></i></a>
-			<a href='#' >女装</a>
-			<a href='#' >男装</a>
-			<a href='#' >鞋包</a>
-			<a href='#' >居家</a>
-			<a href='#' >配饰</a>
-			<a href='#' >母婴</a>
+			<a href="<?php echo $this->createUrl("tejia",array("keyword"=>"all")) ?>"  class="all active">全部</a>
+			<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"all")) ?>'>品牌优选</a>
+			<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"all")) ?>'  >9块9专场<i class="icon i-hot-2"></i></a>
+			<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"女装")) ?>' >女装</a>
+			<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"男装")) ?>' >男装</a>
+			<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"鞋,包")) ?>' >鞋包</a>
+			<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"居家")) ?>' >居家</a>
+			<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"配饰")) ?>' >配饰</a>
+			<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"母婴")) ?>' >母婴</a>
 		</div>
 	</div>
 </div>
@@ -24,13 +24,13 @@
 	<div class="wrapper mb20 mt20"><!---->
 		<div class="tp_nav" pbflag="首页顶部分类">
 			<ul class="t_nav_list cf">
-				<li><a href='#'>女装</a></li>
-				<li><a href='#'>男装</a></li>
-				<li><a href='#'>鞋包</a></li>
-				<li><a href='#'>居家</a></li>
-				<li><a href='#'>配饰</a></li>
-				<li><a href='#'>母婴</a></li>
-				<li><a href='#'>优选</a></li>
+				<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"女装")) ?>'>女装</a></li>
+				<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"男装")) ?>'>男装</a></li>
+				<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"鞋包")) ?>'>鞋包</a></li>
+				<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"居家")) ?>'>居家</a></li>
+				<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"配饰")) ?>'>配饰</a></li>
+				<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"母婴")) ?>'>母婴</a></li>
+				<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"all")) ?>'>优选</a></li>
 			</ul>
 			<div class="t_nav_jkj">
 				
@@ -65,30 +65,29 @@
 		<div class="hotsale cf" >
 			<div class="h_tit"><i class="icon icon_hotw"></i>正在热卖</div>
 			<div class="h_word">
-				<a href='#'><span class="red">空调衫</span></a>
-				<a href='#'>连衣裙</a>
-				<a href='#'>防晒衣</a>
-				<a href='#'><span class="red">雪纺衫</span></a>
-				<a href='#'><span class="red">无痕文胸</span></a>
-				<a href='#'>短裤</a>
-				<a href='#'>比基尼泳衣</a>
-				<a href='#'><span class="red">时尚女鞋</span></a>
-				<a href='#'><span class="red">宝宝童装</span></a>
-				<a href='#'>运动鞋</a>
-				<a href='#'>隐形丝袜</a>
-				<a href='#'><span class="red">妈妈装</span></a>
-				<a href='#'>清凉睡袍</a>
-				<a href='#'>修身风衣</a>
-				<a href='#'>新款女包</a>
-				<a href='#'>双肩包</a>
-				<a href='#'>热卖男鞋</a>
-				<a href='#'>男士T恤</a>
-				<a href='#'>男款衬衫</a>
-				<a href='#'>四件套</a>
-				<a href='#'>面膜</a>
-				<a href='#'><span class="red">收纳工具</span></a>
-				<a href='#'>旅行箱包</a>
-				<a href='#'>墨镜</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"空调衫")) ?>'><span class="red">空调衫</span></a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"连衣裙")) ?>'>连衣裙</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"防晒衣")) ?>'>防晒衣</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"雪纺衫")) ?>'><span class="red">雪纺衫</span></a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"无痕文胸")) ?>'><span class="red">无痕文胸</span></a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"短裤")) ?>'>短裤</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"比基尼泳衣")) ?>'>比基尼泳衣</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"时尚女鞋")) ?>'><span class="red">时尚女鞋</span></a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"童装")) ?>'><span class="red">宝宝童装</span></a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"运动鞋")) ?>'>运动鞋</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"隐形丝袜")) ?>'>隐形丝袜</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"妈妈装")) ?>'><span class="red">妈妈装</span></a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"清凉睡袍")) ?>'>清凉睡袍</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"修身风衣")) ?>'>修身风衣</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"新款女包")) ?>'>新款女包</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"双肩包")) ?>'>双肩包</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"男鞋")) ?>'>热卖男鞋</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"男士T恤")) ?>'>男士T恤</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"男款衬衫")) ?>'>男款衬衫</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"四件套")) ?>'>四件套</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"收纳工具")) ?>'><span class="red">收纳工具</span></a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"旅行箱包")) ?>'>旅行箱包</a>
+				<a href='<?php echo $this->createUrl("tejia",array("keyword"=>"墨镜")) ?>'>墨镜</a>
 			</div>
 		</div>
 	</div>
@@ -98,42 +97,18 @@
 		<div pbflag="价格区间">
 			<dl class="f_price">
 				<dt>全部特价</dt>
-				<dd><a href='#'>价格不限</a>|</dd>
-				<dd><a href='#'>9.9元以下</a>|</dd>
-				<dd><a href='#'>10-19.9元</a>|</dd>
-				<dd><a href='#'>20-39.9元</a>|</dd>
-				<dd><a href='#'>39.9元以上</a></dd>
+				<dd><a href='<?php echo $this->createUrl("tejia",array("price"=>"all")) ?>'>价格不限</a>|</dd>
+				<dd><a href='<?php echo $this->createUrl("tejia",array("price"=>"1")) ?>'>9.9元以下</a>|</dd>
+				<dd><a href='<?php echo $this->createUrl("tejia",array("price"=>"2")) ?>'>10-19.9元</a>|</dd>
+				<dd><a href='<?php echo $this->createUrl("tejia",array("price"=>"3")) ?>'>20-39.9元</a>|</dd>
+				<dd><a href='<?php echo $this->createUrl("tejia",array("price"=>"4")) ?>'>39.9元以上</a></dd>
 			</dl>
-		</div>
-
-		<div class="f_page" pbflag="顶部翻页">
-			<a href='#'></a>
-			<span class="num"><em class="red">1</em>/50</span>
-			<span>页</span>
-			<a href='#' ></a>
 		</div>
 	</div>
 
 	<!--list 开始-->
 	<div class="list  mt20" pbflag="内容列表">
 		<?php echo $content; ?>
-	</div>
-
-	<!-- pagination -->
-	<div class="mai-page-wrap" pbflag="内容列表">
-		<div class="pagination cf">
-			<a href="<?php echo $this->createUrl('tejia',array('page'=>$this->page-1)) ?>" class="next">上一页</a>
-			<?php
-			
-			for($i=1;$i<6;$i++){
-				if($this->page == $i){ ?>
-					<a href="<?php echo $this->createUrl('tejia',array('page'=>$i)) ?>" class='cur'><?php echo $i ?></a>
-			<?php }else{	?>
-					<a href="<?php echo $this->createUrl('tejia',array('page'=>$i)) ?>"><?php echo $i ?></a>
-			<?php }} ?>
-			<a href="<?php echo $this->createUrl('tejia',array('page'=>$this->page+1)) ?>" class="next">下一页</a>
-		</div>
-	</div>
 </div>
 
 <!--to top-->

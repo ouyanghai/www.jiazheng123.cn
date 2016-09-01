@@ -30,14 +30,18 @@
 </div>
 <div class="banner">
     <ul class="banner_list">
-        <li><a href=""><img src="http://e.ytx.la/images/asp/1.png"></a></li>
-        <li><a href=""><img src="http://e.ytx.la/images/asp/2.png"></a></li>
+        <li><a href=""><img src="https://img.alicdn.com/imgextra/i1/2142774736/TB2l0yFaGnyQeBjSsphXXXiuVXa-2142774736.png"></a></li>
+        <li><a href=""><img src="https://img.alicdn.com/imgextra/i4/2142774736/TB22XeLaGnyQeBjSspeXXa8WpXa-2142774736.png"></a></li>
+        <li><a href=""><img src="https://img.alicdn.com/imgextra/i3/2142774736/TB2Db5MaRPxQeBjy1XcXXXHzVXa-2142774736.png"></a></li>
+        <li><a href=""><img src="https://img.alicdn.com/imgextra/i2/2142774736/TB2mVKJaPnyQeBjSspnXXbZipXa-2142774736.png"></a></li>
     </ul>
     <div class="banner_arrow">
         <a href="javascript:;" class="arrow_prev"><i></i></a>
         <a href="javascript:;" class="arrow_next"><i></i></a>
     </div>
     <div class="round">
+        <a href="javascript:;"></a>
+        <a href="javascript:;"></a>
         <a href="javascript:;"></a>
         <a href="javascript:;"></a>
     </div>
