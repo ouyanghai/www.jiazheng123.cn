@@ -10,6 +10,8 @@
 <link rel="shortcut icon" href="<?php echo $this->assets['app'] ?>/images/hui.png" mce_href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="http://mai.sogou.com/assets/css/site.css?v=7.2">
 <link rel="stylesheet" type="text/css" href="<?php echo $this->assets['app'] ?>/css/jia.css">
+<script type="text/javascript" src="<?php echo $this->assets['app'] ?>/js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="<?php echo $this->assets['app'] ?>/js/main.js"></script>
 <style type="text/css">
 .mactive{
 	background-color:white;
@@ -37,12 +39,26 @@
 			} ?>
 			
 		</ul>
+		<?php if($this->action->id == "tejia"){ ?>
+		<div class="searchbox cf " pbflag="sokuang" style="width:290px;">
+			<select id="search_se" style="float:left;height:28px;">
+				<option value="keyword">宝贝名搜索</option>
+				<option value="shop">店铺名搜索</option>
+			</select>
+			<div class="input" style="float:left;">
+				<input id="search" name="keyword" type="text" value=''>
+			</div>
+			<a id='search_a' href="javascript:;" class="ser_btn"><i class="icon icon_search"></i></a>
+		</div>
+		<?php }else{ ?>
 		<div class="searchbox cf " pbflag="sokuang">
+			<input type="hidden" value="keyword" id="search_se" />
 			<div class="input">
 				<input id="search" name="keyword" type="text" value=''>
 			</div>
 			<a id='search_a' href="javascript:;" class="ser_btn"><i class="icon icon_search"></i></a>
 		</div>
+		<?php } ?>
 	</div>
 </div>
 
@@ -71,21 +87,15 @@
 <script type="text/javascript" src="http://mai.sogou.com/assets/js/common.js?v=7.2"></script>
 <script type="text/javascript" src="http://mai.sogou.com/assets/js/index.js?v=7.2"></script>
 
-<div class="tb_ad" id="tb_ad" style="" pbflag="taobaoad">		    
-	<h2 class="tit">淘宝热搜</h2>		    
-	<div class="info">		        
-		<a href="http://re.taobao.com/search_ou?keyword=%e9%95%bf%e8%a3%99&amp;refpid=mm_14626936_13508395_53418399&amp;_input_charset=utf8" target="_blank">
-			<img src="http://p4.123.sogoucdn.com/imgu/2016/08/20160809152343_402.jpg">		        
-		</a>		        
-		<span class="name">超气质雪纺长裙</span>		    
-	</div>	    
-</div>
+
 <script type="text/javascript">
 $(function(){
 	$("#search_a").click(function(){
 		var key = $("#search").val();
-		window.location.href="<?php echo $this->action->id ?>?keyword="+key;
+		var name = $("#search_se").val();
+		window.location.href="<?php echo $this->action->id ?>?"+name+"="+key;
 	})
+	$(".tpage").css("display","inline-block");
 });
 </script>
 </body>

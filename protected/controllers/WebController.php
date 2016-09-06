@@ -7,6 +7,7 @@ class WebController extends TopController{
 		'shangjia'=>array('label'=>'商家大全','url'=>'/web/shangjia',"title"=>"商家大全|汇聚全网优质好店-惠时尚","des"=>"网聚全网最优惠的超低价折扣商品。每日千款超值商品实时更新，你最值得关注的特价促销，就在惠时尚今日特价！"),
 		'about'=>array('label'=>'关于我们','url'=>'/web/about',"title"=>"惠时尚-关于我们","des"=>"网聚全网最优惠的超低价折扣商品。每日千款超值商品实时更新，你最值得关注的特价促销，就在惠时尚今日特价！"),
 	);
+	//public $niuren = "http://niu.haodianpu.com";
 	public $niuren = "http://121.199.173.134";
 	public function init(){
 		parent::init();
@@ -23,15 +24,18 @@ class WebController extends TopController{
 
 	public function actionTejia(){
 		$this->layout = '//layouts/tejia';
-		$page = !empty($_GET['page'])&&is_numeric($_GET['page'])&&$_GET['page']>0&&$_GET['page']<6 ? $_GET['page'] : 1;
+		$page = !empty($_GET['page'])&&is_numeric($_GET['page'])&&$_GET['page']>0 ? $_GET['page'] : 1;
 		$keyword = !empty($_GET['keyword']) ? $_GET['keyword'] : '';
 		$price = !empty($_GET['price']) ? $_GET['price'] : 'all';
-		$file = $this->niuren."/mobile/sjdp/gettejiaitem?page={$page}&keyword={$keyword}&price={$price}";
+		$shop = !empty($_GET['shop']) ? $_GET['shop'] : '';
+		$file = $this->niuren."/mobile/sjdp/gettejiaitem?page={$page}&keyword={$keyword}&price={$price}&shop={$shop}";
 		$content = file_get_contents($file);
 		$res = json_decode($content,true);
 		$pages = $res['pages'];
 		$data = $res['item'];
-		$this->render("tejia",array('data'=>$data,'pages'=>$pages,'page'=>$page));
+		$ldata = $res['litem'];
+		//print_r($ldata);exit;
+		$this->render("tejia",array('data'=>$data,'ldata'=>$ldata,'pages'=>$pages,'page'=>$page));
 	}
 
 	public function actionShangjia(){

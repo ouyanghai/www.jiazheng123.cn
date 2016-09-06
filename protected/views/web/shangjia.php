@@ -8,6 +8,7 @@
 			<li><a href="http://s.click.taobao.com/t?e=m%3D2%26s%3DqTpUNY4zAhkcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAuwAbkDBIdf3yMJK2z9CSANEOQW%2FPNhaViIKbzq%2B%2BZNiDDF1i79dm7dQ%2BRahyk8fbeo0BcZWWIRYYA%2FDpPH01wK9AmARIwX9K%2BAjBDXvuqoU47FHjfsActnIQu5PdXpojKJn5AyUbPoV" target="_blank" >聚划算</a></li><li><a href="http://mai.sogou.com/haitao/" target="_blank" >海淘精选</a></li><li><a href="http://ai.taobao.com?pid=mm_14626936_8346309_57110172" target="_blank" >爱淘宝</a></li><li><a href="http://v1.aili.com/d/click.php?i=MjA5NQ==" target="_blank" >京东商城</a></li><li><a href="http://mai.sogou.com/tejia/?fr=etaowz" target="_blank" style="color:blue">9块9包邮</a></li><li><a href="http://s.click.taobao.com/t?e=m%3D2%26s%3Du5GDkp7G3v0cQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMWzULXa0ISM7MMgx22UI05ZbpnDuwQww1C5y%2BMHoxR7Fw6Fn9MpL1zk69dlKibxbFKUuZxIcp9pfUIgVEmFmgnbDX0%2BHH2IEVa7A5ve%2FEYDnFveQ9Ld2jopwTqWNBsAwm%2BIKl4JSR4lzxgxdTc00KD8%3D" target="_blank" style="color:red">天猫精选</a></li><li><a href="http://www.jujiukuaiyou.com/" target="_blank" >九块邮</a></li><li><a href="http://mai.sogou.com/tejia/nvzhuang/" target="_blank" style="color:green">女装特卖</a></li><li><a href="http://www.amazon.cn/?tag=sogou2pwz-23" target="_blank" >亚马逊</a></li><li><a href="http://www.suning.com/?utm_source=sogoudh&utm_medium=gouwu&utm_campaign=daohang" target="_blank" >苏宁易购</a></li><li><a href="http://v1.aili.com/d/click.php?i=MjY0NA==" target="_blank" >唯品会</a></li><li><a href="http://v1.aili.com/d/click.php?i=Mjg0MA==" target="_blank" >一号店</a></li>
 		</ul>
 	</div>
+	<?php if(!empty($users)){ ?>
 	<div class="list">
 		<ul>
 			<?php foreach ($users as $key => $data) {
@@ -56,6 +57,7 @@
 			<?php } ?>
 		</ul>
 	</div>
+	
 	<!-- pagination -->
 	<div class="page">
             <?php if($page == 1){ ?>
@@ -82,6 +84,7 @@
                <a href="<?php echo $this->createUrl('item',array('sid'=>$data['sid'],'page'=>$page+1)) ?>">下一页</a>
                 <a href="<?php echo $this->createUrl('item',array('sid'=>$data['sid'],'page'=>$pages)) ?>">尾页</a>
             <?php } ?>
-        </div>
+    </div>
+    <?php } ?>
 </div>
 <a href="###" id="to_top" class="to_top add_ml550" rel="nofollow" title="返回顶部" style="display: inline;">回顶部</a>

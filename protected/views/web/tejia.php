@@ -21,7 +21,8 @@
 
 	<!-- pagination -->
 	<div class="mai-page-wrap" pbflag="内容列表">
-		<div class="pagination cf">
+		<div>
+		<div class="tpage" style="display:inline-block;">
 			<?php if($page == 1){ ?>
                 <a disabled="disabled">首页</a>
                 <a class="next" disabled="disabled">上一页</a>
@@ -47,4 +48,22 @@
                 <a href="<?php echo $this->createUrl('tejia',array('page'=>$pages)) ?>">尾页</a>
             <?php } ?>
 		</div>
+		</div>
+	</div>
+
+	<div class="tb_ad" id="tb_ad" style="" pbflag="taobaoad">		    
+		<h2 class="tit">淘宝热搜</h2>		    
+		<ul class="lunbo">
+			<?php foreach ($ldata as $value) { ?>
+				<li>
+					<div class="info" >		        
+						<a target="_blank" href="http://item.taobao.com/item.htm?id=<?php echo $value['iid'] ?>" target="_blank">
+							<img src="<?php echo $value['pic_url'] ?>">		        
+						</a>		        
+						<span class="name"><?php echo $value['title'] ?></span>		    
+					</div>			
+				</li>
+			<?php } ?>
+		</ul>
+			    
 	</div>

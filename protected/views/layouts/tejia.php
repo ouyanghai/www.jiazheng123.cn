@@ -42,8 +42,8 @@
 				<span class="tleft"></span>
 				<span class="tright"></span>
 				<ul>
-					<li style="display: block"><a href='#' ><img src="http://p2.123.sogoucdn.com/imgu/2016/07/20160729150339_193.jpg" alt=""></a></li>
-					<li style="display: none"><a href='#' ><img src="http://p2.123.sogoucdn.com/imgu/2016/07/20160715113256_803.jpg" alt=""></a></li>
+					<li style="display: block"><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"all")) ?>' ><img src="http://p2.123.sogoucdn.com/imgu/2016/07/20160729150339_193.jpg" alt=""></a></li>
+					<li style="display: none"><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"鞋包")) ?>' ><img src="http://p2.123.sogoucdn.com/imgu/2016/07/20160715113256_803.jpg" alt=""></a></li>
 				</ul>
 			</div>
 		</div>
@@ -51,10 +51,10 @@
 		<div class="v1-adver-wrap" pbflag="头部小图">
 			<div class="v1-adver-list">
 				<ul class="cf">
-					<li><a href='#' ><img src="http://p9.123.sogoucdn.com/imgu/2016/07/20160706182301_72.jpg" alt=""><span class="cover"></span></a></li>
-					<li><a href='#' ><img src="http://p2.123.sogoucdn.com/imgu/2016/07/20160706182303_363.jpg" alt=""><span class="cover"></span></a></li>
-					<li><a href='#' ><img src="http://p2.123.sogoucdn.com/imgu/2016/07/20160706182525_910.jpg" alt=""><span class="cover"></span></a></li>
-					<li><a href='#' ><img src="http://p4.123.sogoucdn.com/imgu/2016/07/20160706182307_356.jpg" alt=""><span class="cover"></span></a></li>
+					<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"裙")) ?>' ><img src="http://p9.123.sogoucdn.com/imgu/2016/07/20160706182301_72.jpg" alt=""><span class="cover"></span></a></li>
+					<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"T恤")) ?>' ><img src="http://p2.123.sogoucdn.com/imgu/2016/07/20160706182303_363.jpg" alt=""><span class="cover"></span></a></li>
+					<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"鞋")) ?>' ><img src="http://p2.123.sogoucdn.com/imgu/2016/07/20160706182525_910.jpg" alt=""><span class="cover"></span></a></li>
+					<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"泳衣")) ?>' ><img src="http://p4.123.sogoucdn.com/imgu/2016/07/20160706182307_356.jpg" alt=""><span class="cover"></span></a></li>
 				</ul>
 			</div>
 		</div>
