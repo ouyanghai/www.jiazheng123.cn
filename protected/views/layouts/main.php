@@ -32,14 +32,14 @@
 				foreach ($this->menu as $key => $value) {
 			?>
 				<li <?php if($this->action->id == $key) echo "class='mactive'" ?>>
-				<a <?php if($this->action->id == $key) echo "style='color:red'" ?> href="<?php echo $value['url'] ?>" target="_blank"><?php echo $value['label'] ?></a>
+				<a <?php if($this->action->id == $key) echo "style='color:red'" ?> href="<?php echo $value['url']; ?>" target="_blank"><?php echo $value['label'] ?></a>
 				</li>
 			<?php 		
 				}
 			} ?>
 			
 		</ul>
-		<?php if($this->action->id == "tejia"){ ?>
+		<?php if(1){//if($this->action->id == "tejia"){ ?>
 		<div class="searchbox cf " pbflag="sokuang" style="width:290px;">
 			<select id="search_se" style="float:left;height:28px;">
 				<option value="keyword">宝贝名搜索</option>
@@ -93,7 +93,8 @@ $(function(){
 	$("#search_a").click(function(){
 		var key = $("#search").val();
 		var name = $("#search_se").val();
-		window.location.href="<?php echo $this->action->id ?>?"+name+"="+key;
+		//window.location.href="<?php echo $this->action->id ?>?"+name+"="+key;
+		window.location.href="http://tejia.jiazheng123.cn/?"+name+"="+key;
 	})
 	$(".tpage").css("display","inline-block");
 });

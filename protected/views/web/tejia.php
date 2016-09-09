@@ -1,5 +1,8 @@
 <ul class="list_info cf">
-	<?php foreach ($data as $key => $value) { ?>
+	<?php 
+	foreach ($data as $key => $value) { 
+		if($value['sid'] == 35418517){continue;}
+	?>
 	<!--1个li是一个list块是可循环的-->
 	<li>
 		<div>
@@ -54,7 +57,9 @@
 	<div class="tb_ad" id="tb_ad" style="" pbflag="taobaoad">		    
 		<h2 class="tit">淘宝热搜</h2>		    
 		<ul class="lunbo">
-			<?php foreach ($ldata as $value) { ?>
+			<?php foreach ($ldata as $value) { 
+				if($value['sid'] == 35418517){continue;}
+			?>
 				<li>
 					<div class="info" >		        
 						<a target="_blank" href="http://item.taobao.com/item.htm?id=<?php echo $value['iid'] ?>" target="_blank">
@@ -65,5 +70,4 @@
 				</li>
 			<?php } ?>
 		</ul>
-			    
 	</div>

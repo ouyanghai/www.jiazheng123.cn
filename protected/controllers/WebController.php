@@ -1,11 +1,12 @@
 <?php
 class WebController extends TopController{
 	public $layout = '//layouts/main';
+	public $defaultAction = "tejia";
 	public $menu = array(
-		'tejia'=>array('label'=>'今日特价','url'=>'/web/tejia','title'=>"今日特价| 全场1折起，超低价还包邮的打折商品聚合！- 惠时尚",'des'=>"网聚全网最优惠的超低价折扣商品。每日千款超值商品实时更新，你最值得关注的特价促销，就在惠时尚今日特价！"),
-		'temai'=>array('label'=>'限时特卖','url'=>'/web/temai',"title"=>"惠时尚限时特卖，品牌特卖，正品低价限时折扣，聚全网优惠，品质保证！- 惠时尚","des"=>"品牌特卖，惠时尚，特卖，名品，品牌，打折，促销，品牌折扣，限时抢购，正品特卖,品牌折扣网,品牌团"),
-		'shangjia'=>array('label'=>'商家大全','url'=>'/web/shangjia',"title"=>"商家大全|汇聚全网优质好店-惠时尚","des"=>"网聚全网最优惠的超低价折扣商品。每日千款超值商品实时更新，你最值得关注的特价促销，就在惠时尚今日特价！"),
-		'about'=>array('label'=>'关于我们','url'=>'/web/about',"title"=>"惠时尚-关于我们","des"=>"网聚全网最优惠的超低价折扣商品。每日千款超值商品实时更新，你最值得关注的特价促销，就在惠时尚今日特价！"),
+		'tejia'=>array('label'=>'今日特价','url'=>'http://tejia.jiazheng123.cn','title'=>"今日特价| 全场1折起，超低价还包邮的打折商品聚合！- 惠时尚",'des'=>"网聚全网最优惠的超低价折扣商品。每日千款超值商品实时更新，你最值得关注的特价促销，就在惠时尚今日特价！"),
+		'temai'=>array('label'=>'限时特卖','url'=>'http://temai.jiazheng123.cn',"title"=>"惠时尚限时特卖，品牌特卖，正品低价限时折扣，聚全网优惠，品质保证！- 惠时尚","des"=>"品牌特卖，惠时尚，特卖，名品，品牌，打折，促销，品牌折扣，限时抢购，正品特卖,品牌折扣网,品牌团"),
+		'shangjia'=>array('label'=>'商家大全','url'=>'http://shangjia.jiazheng123.cn',"title"=>"商家大全|汇聚全网优质好店-惠时尚","des"=>"网聚全网最优惠的超低价折扣商品。每日千款超值商品实时更新，你最值得关注的特价促销，就在惠时尚今日特价！"),
+		'about'=>array('label'=>'关于我们','url'=>'http://about.jiazheng123.cn',"title"=>"惠时尚-关于我们","des"=>"网聚全网最优惠的超低价折扣商品。每日千款超值商品实时更新，你最值得关注的特价促销，就在惠时尚今日特价！"),
 	);
 	//public $niuren = "http://niu.haodianpu.com";
 	public $niuren = "http://121.199.173.134";
@@ -24,7 +25,10 @@ class WebController extends TopController{
 
 	public function actionTejia(){
 		$this->layout = '//layouts/tejia';
-		$page = !empty($_GET['page'])&&is_numeric($_GET['page'])&&$_GET['page']>0 ? $_GET['page'] : 1;
+		$tpage = $page = !empty($_GET['page'])&&is_numeric($_GET['page'])&&$_GET['page']>0 ? $_GET['page'] : 1;
+		if($page>2){
+			$page -= 2;
+		}
 		$keyword = !empty($_GET['keyword']) ? $_GET['keyword'] : '';
 		$price = !empty($_GET['price']) ? $_GET['price'] : 'all';
 		$shop = !empty($_GET['shop']) ? $_GET['shop'] : '';
@@ -34,8 +38,13 @@ class WebController extends TopController{
 		$pages = $res['pages'];
 		$data = $res['item'];
 		$ldata = $res['litem'];
-		//print_r($ldata);exit;
-		$this->render("tejia",array('data'=>$data,'ldata'=>$ldata,'pages'=>$pages,'page'=>$page));
+		/* 前三页使用静态页面*/
+		if($tpage<=2&&empty($keyword)&&empty($shop)){
+			$f = "tejia".$tpage;
+			$this->render($f,array('data'=>$data,'ldata'=>$ldata,'pages'=>$pages,'page'=>$tpage));
+		}else{
+			$this->render("tejia",array('data'=>$data,'ldata'=>$ldata,'pages'=>$pages,'page'=>$tpage));
+		}
 	}
 
 	public function actionShangjia(){

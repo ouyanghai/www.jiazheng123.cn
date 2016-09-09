@@ -100,4 +100,13 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+	public function filterAdmin(){
+		$this->redirect("http://tejia.jiazheng123.cn");
+	}
+	public function filters(){
+		return array(
+			"admin"
+		);
+	}
 }

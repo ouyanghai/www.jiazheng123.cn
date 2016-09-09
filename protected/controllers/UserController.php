@@ -2,7 +2,9 @@
 class UserController extends TopController{
 	public $layout = "//layouts/umain";
 	public $shop_title='';
+	//public $niuren = "http://niu.haodianpu.com";
 	public $niuren = "http://121.199.173.134";
+	public $defaultAction = "shop";
 	public function init(){
 		parent::init();
 

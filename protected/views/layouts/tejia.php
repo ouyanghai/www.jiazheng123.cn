@@ -24,7 +24,7 @@
 	<div class="wrapper mb20 mt20"><!---->
 		<div class="tp_nav" pbflag="首页顶部分类">
 			<ul class="t_nav_list cf">
-				<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"女装")) ?>'>女装</a></li>
+				<li><a href='<?php echo $this->createUrl("/web/tejia",array("keyword"=>"女装")) ?>'>女装</a></li>
 				<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"男装")) ?>'>男装</a></li>
 				<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"鞋包")) ?>'>鞋包</a></li>
 				<li><a href='<?php echo $this->createUrl("tejia",array("keyword"=>"居家")) ?>'>居家</a></li>

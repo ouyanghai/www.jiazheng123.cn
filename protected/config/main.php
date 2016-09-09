@@ -43,9 +43,25 @@ return array(
 			'urlFormat'=>'path',
 			'showScriptName'=>false,
 			'rules'=>array(
+				'http://shop.jiazheng123.cn/<action:\w+>' => 'user/<action>',
+				'http://local.jiazheng123.cn' => 'web/tejia',
+				'http://<action:\w+>.jiazheng123.cn' => 'web/<action>',
+				
+				'http://<action>.jiazheng123.cn/page/<page:\d+>' => 'web/<action>',
+				'http://<action>.jiazheng123.cn/keyword/<keyword:[\S\s]+>' => 'web/<action>',
+
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+
+				
+				/*
+				'<controller:\w+>/<action:\w+>' => 'web/<action>',
+				'<controller:\w+>/<action:\w+>' => 'user/<action>',
+				'<action:\w+>' => "web/<action>",
+				*/
+				
+				
 			),
 		),
 		

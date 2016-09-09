@@ -8,17 +8,36 @@
 			<li><a href="http://s.click.taobao.com/t?e=m%3D2%26s%3DqTpUNY4zAhkcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAuwAbkDBIdf3yMJK2z9CSANEOQW%2FPNhaViIKbzq%2B%2BZNiDDF1i79dm7dQ%2BRahyk8fbeo0BcZWWIRYYA%2FDpPH01wK9AmARIwX9K%2BAjBDXvuqoU47FHjfsActnIQu5PdXpojKJn5AyUbPoV" target="_blank" >聚划算</a></li><li><a href="http://mai.sogou.com/haitao/" target="_blank" >海淘精选</a></li><li><a href="http://ai.taobao.com?pid=mm_14626936_8346309_57110172" target="_blank" >爱淘宝</a></li><li><a href="http://v1.aili.com/d/click.php?i=MjA5NQ==" target="_blank" >京东商城</a></li><li><a href="http://mai.sogou.com/tejia/?fr=etaowz" target="_blank" style="color:blue">9块9包邮</a></li><li><a href="http://s.click.taobao.com/t?e=m%3D2%26s%3Du5GDkp7G3v0cQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMWzULXa0ISM7MMgx22UI05ZbpnDuwQww1C5y%2BMHoxR7Fw6Fn9MpL1zk69dlKibxbFKUuZxIcp9pfUIgVEmFmgnbDX0%2BHH2IEVa7A5ve%2FEYDnFveQ9Ld2jopwTqWNBsAwm%2BIKl4JSR4lzxgxdTc00KD8%3D" target="_blank" style="color:red">天猫精选</a></li><li><a href="http://www.jujiukuaiyou.com/" target="_blank" >九块邮</a></li><li><a href="http://mai.sogou.com/tejia/nvzhuang/" target="_blank" style="color:green">女装特卖</a></li><li><a href="http://www.amazon.cn/?tag=sogou2pwz-23" target="_blank" >亚马逊</a></li><li><a href="http://www.suning.com/?utm_source=sogoudh&utm_medium=gouwu&utm_campaign=daohang" target="_blank" >苏宁易购</a></li><li><a href="http://v1.aili.com/d/click.php?i=MjY0NA==" target="_blank" >唯品会</a></li><li><a href="http://v1.aili.com/d/click.php?i=Mjg0MA==" target="_blank" >一号店</a></li>
 		</ul>
 	</div>
+	<div class="searchbox cf " pbflag="sokuang" style="float:none;width:250px;margin-bottom:50px;">
+		<input type="hidden" value="keyword" id="search_shop_se" />
+		<div  style="width:200px;" class="input">
+			<input id="search_shop" name="keyword" type="text" placeholder='输入淘宝店铺名查找店铺..'>
+		</div>
+		<a id='search_shop_a' href="javascript:;" class="ser_btn"><i class="icon icon_search"></i></a>
+	</div>
+	<script type="text/javascript">
+	$(function(){
+		$("#search_shop_a").click(function(){
+			var key = $("#search_shop").val();
+			var name = $("#search_shop_se").val();
+			//window.location.href="<?php echo $this->action->id ?>?"+name+"="+key;
+			window.location.href="?"+name+"="+key;
+		})
+		$(".tpage").css("display","inline-block");
+	});
+	</script>
 	<?php if(!empty($users)){ ?>
 	<div class="list">
 		<ul>
 			<?php foreach ($users as $key => $data) {
+				if($data['sid'] == 35418517){continue;}
 				$star['level'] = ceil($data['level']/5);
 				$star['num'] = $data['level']%5 == 0 ? 5 : $data['level']%5;
 			?>
 			<li>
 				<div class="shop_info">
 					<div class="shop_img">
-						<a href="http://shop<?php echo $data['sid']?>.taobao.com"><img src="http://logo.taobao.com/shop-logo<?php echo $data['pic'] ?>"></a>
+						<a href="http://shop<?php echo $data['sid']?>.taobao.com"><img src="http://logo.taobao.com/shop-logo<?php if(empty($data['pic'])){echo $data['item'][0]['pic_url'];}else{echo $data['pic'];} ?>"></a>
 					</div>
 					<div class="shop_in">
 						<div class="shop_title">
@@ -59,32 +78,36 @@
 	</div>
 	
 	<!-- pagination -->
-	<div class="page">
-            <?php if($page == 1){ ?>
+	<div class="mai-page-wrap" pbflag="内容列表">
+		<div>
+		<div class="tpage" style="display:inline-block;">
+			<?php if($page == 1){ ?>
                 <a disabled="disabled">首页</a>
-                <a disabled="disabled">上一页</a>
+                <a class="next" disabled="disabled">上一页</a>
             <?php }else{ ?>
-                <a href="<?php echo $this->createUrl('item',array('sid'=>$data['sid'],'page'=>1)) ?>">首页</a>
-                <a href="<?php echo $this->createUrl('item',array('sid'=>$data['sid'],'page'=>$page-1)) ?>">上一页</a>
+                <a href="<?php echo $this->createUrl('shangjia',array('page'=>1)) ?>">首页</a>
+                <a class="next" href="<?php echo $this->createUrl('shangjia',array('page'=>$page-1)) ?>">上一页</a>
             <?php } ?>
             <?php 
                 $s_page = $page-4>0?$page-4:1;
                 $e_page = $page+5>$pages?$pages:$page+5;
                 for($i=$s_page;$i<=$e_page;$i++){
                     if($i == $page){ ?>
-                        <a class='page_cur' disabled="disabled" href="<?php echo $this->createUrl('item',array('sid'=>$data['sid'],'page'=>$i)) ?>"><?php echo $i; ?></a>
+                        <a class='cur' disabled="disabled" href="<?php echo $this->createUrl('shangjia',array('page'=>$i)) ?>"><?php echo $i; ?></a>
                     <?php }else{ ?> 
-                        <a class="page_n" href="<?php echo $this->createUrl('item',array('sid'=>$data['sid'],'page'=>$i)) ?>"><?php echo $i; ?></a>
+                        <a class="page_n" href="<?php echo $this->createUrl('shangjia',array('page'=>$i)) ?>"><?php echo $i; ?></a>
             <?php }} ?>
             
             <?php if($pages == $page){ ?>
-                <a disabled="disabled">下一页</a>
+                <a class="next" disabled="disabled">下一页</a>
                 <a disabled="disabled">尾页</a>
             <?php }else{ ?>
-               <a href="<?php echo $this->createUrl('item',array('sid'=>$data['sid'],'page'=>$page+1)) ?>">下一页</a>
-                <a href="<?php echo $this->createUrl('item',array('sid'=>$data['sid'],'page'=>$pages)) ?>">尾页</a>
+               <a class="next" href="<?php echo $this->createUrl('shangjia',array('page'=>$page+1)) ?>">下一页</a>
+                <a href="<?php echo $this->createUrl('shangjia',array('page'=>$pages)) ?>">尾页</a>
             <?php } ?>
-    </div>
+		</div>
+		</div>
+	</div>
     <?php } ?>
 </div>
 <a href="###" id="to_top" class="to_top add_ml550" rel="nofollow" title="返回顶部" style="display: inline;">回顶部</a>
