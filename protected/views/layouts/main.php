@@ -6,9 +6,9 @@
 <title><?php echo $this->menu[$this->action->id]['title'] ?></title>
 <meta name="keywords" content="今日特价，超低价，九块九，九块九包邮，超值，品牌折扣，值得买，惠时尚"/>
 <meta name="description" content="<?php echo $this->menu[$this->action->id]['des'] ?>"/>
-<link rel="stylesheet" href="http://mai.sogou.com/assets/css/index.css?v=7.2">
+<link rel="stylesheet" href="<?php echo $this->assets['app'] ?>/css/index.css">
 <link rel="shortcut icon" href="<?php echo $this->assets['app'] ?>/images/hui.png" mce_href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="http://mai.sogou.com/assets/css/site.css?v=7.2">
+<link rel="stylesheet" type="text/css" href="<?php echo $this->assets['app'] ?>/css/site.css">
 <link rel="stylesheet" type="text/css" href="<?php echo $this->assets['app'] ?>/css/jia.css">
 <script type="text/javascript" src="<?php echo $this->assets['app'] ?>/js/jquery-1.7.2.js"></script>
 <script type="text/javascript" src="<?php echo $this->assets['app'] ?>/js/main.js"></script>

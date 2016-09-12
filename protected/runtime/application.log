@@ -6438,3 +6438,2049 @@ Stack trace:
 REQUEST_URI=/favicon.ico
 HTTP_REFERER=http://shop.jiazheng123.cn/shop?sid=35418517
 ---
+2016/09/09 09:19:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "local".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(270): CController->missingAction('local')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): CController->run('local')
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('web/local')
+#3 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2016/09/09 15:06:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "local".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(270): CController->missingAction('local')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): CController->run('local')
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('web/local')
+#3 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2016/09/12 09:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "local".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CController.php(270): CController->missingAction('local')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(282): CController->run('local')
+#2 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('web/local')
+#3 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2016/09/12 10:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://tejia.jiazheng123.cn/?page=3
+---
+2016/09/12 10:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_icon.png".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_icon.png
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_icon.png".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_icon.png
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_icon.png".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_icon.png
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_icon.png".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_icon.png
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_icon.png".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_icon.png
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:12:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_icon.png".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_icon.png
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:12:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_icon.png".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_icon.png
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_icon.png".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_icon.png
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:13:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:13:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/img/gw_icon.png".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/img/gw_icon.png
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:15:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:17:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:31:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:33:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:41:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:43:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:43:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:44:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:44:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://tejia.jiazheng123.cn/?page=3
+---
+2016/09/12 10:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:46:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:49:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:50:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:50:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:50:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:52:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:53:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:53:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:54:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:54:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:54:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:56:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:56:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:57:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:58:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 10:58:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:02:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:02:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:02:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:04:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:06:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:09:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:10:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:10:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:11:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:12:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:12:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:13:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:13:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:13:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:14:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:14:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:15:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:15:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:15:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:16:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:16:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:17:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:19:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:20:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:20:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:20:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:20:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:21:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:23:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:25:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:25:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:26:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:27:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:34:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:39:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:41:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:42:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:42:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:47:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:47:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 11:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:23:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:24:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:25:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:33:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:33:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:34:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:35:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:37:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:37:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:39:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:40:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:41:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:41:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:41:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:42:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:42:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:42:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:42:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:43:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:45:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:48:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:49:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:49:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:51:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:51:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:52:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:53:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 13:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:05:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:05:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:05:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:06:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:07:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:09:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:12:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:13:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:13:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:13:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:14:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:19:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:20:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:21:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:23:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:23:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:23:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:23:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:24:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:24:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:24:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:24:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:25:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:25:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:26:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:26:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:27:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:27:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:27:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:27:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:27:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:27:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:28:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:28:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:30:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:30:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:30:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_bg.jpg".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_bg.jpg
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:31:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
+2016/09/12 14:31:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/9861bacb/images/gw_verbar.gif".' in D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\www.jiazheng123.cn\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/9861bacb...')
+#1 D:\wwwroot\www.jiazheng123.cn\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.jiazheng123.cn\index.php(30): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/9861bacb/images/gw_verbar.gif
+HTTP_REFERER=http://tejia.jiazheng123.cn/assets/9861bacb/css/site.css
+---
