@@ -18,6 +18,11 @@ class UserController extends TopController{
 		if(empty($_GET['sid'])){
 			$this->redirect("/web/index");
 		}
+		if($_GET['sid'] == 123){
+			$this->layout = "//layouts/blank";
+			$this->render("model");
+			exit;
+		}
 		$ccid = !empty($_GET['cid']) ? $_GET['cid'] : 0;
 		$file = $this->niuren."/mobile/sjdp/getshop?sid={$_GET['sid']}&cid={$ccid}";
 		$content = file_get_contents($file);
@@ -36,6 +41,11 @@ class UserController extends TopController{
 	public function actionItem(){
 		if(empty($_GET['sid'])){
 			$this->redirect("/web/index");
+		}
+		if($_GET['sid'] == 123){
+			$this->layout = "//layouts/blank";
+			$this->render("modelitem");
+			exit;
 		}
 		$ccid = !empty($_GET['cid']) ? $_GET['cid'] : 0;
 		$page = !empty($_GET['page'])&&is_numeric($_GET['page']) ? $_GET['page'] : 1;
@@ -58,6 +68,11 @@ class UserController extends TopController{
 	public function actionAbout(){
 		if(empty($_GET['sid'])){
 			$this->redirect("/web/index");
+		}
+		if($_GET['sid'] ==123){
+			$this->layout = "//layouts/blank";
+			$this->render("modelabout");
+			exit;
 		}
 		$ccid = !empty($_GET['cid']) ? $_GET['cid'] : 0;
 		$file = $this->niuren."/mobile/sjdp/getdesc?sid={$_GET['sid']}&cid={$ccid}";

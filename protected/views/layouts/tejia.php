@@ -32,20 +32,20 @@
 						<div class="v1-silder-border">
 							<i class="v1-silder-flag"></i>
 							<span class="v1-silder-img">
-								<a href="https://detail.tmall.com/item.htm?id=522947163939" target="_blank"><img src="http://i.huim.com/contents/14736456694499.jpg!290x290.jpg"></a>
+								<a href="https://detail.tmall.com/item.htm?id=520991913671" target="_blank"><img src="http://i.huim.com/contents/14743398225073.png!290x290.jpg"></a>
 							</span>
 							<div class="v1-silder-div">
 								<span class="v1-silder-title">
-									<a href="https://detail.tmall.com/item.htm?id=522947163939" target="_blank">鞋柜必备# HDGHM 圆头牛津平底小白鞋</a>
+									<a href="https://detail.tmall.com/item.htm?id=520991913671" target="_blank">汤米鼠 秋冬婴幼儿纯棉加厚分腿睡袋</a>
 								</span>
 								<span class="v1-silder-price">
-									24.8元包邮
+									39元包邮
 								</span>
 								<span class="v1-silder-desc">
-									这款小白鞋，采用PU帮面，牛津鞋底，上脚轻盈，具有防霉透气，抑菌吸汗的作用。软底防滑，行走舒适不累脚，非常百搭的一款小皮鞋，皮的鞋面即使脏了轻轻一擦就解决啦~
+									天猫售价69元，点我领取30元优惠券，券后实付39元包邮到手。秋冬季节，宝宝睡觉再也不用担心会踢被子着凉啦~
 								</span>
 								<span class="v1-silder-buy">
-									<a href="https://detail.tmall.com/item.htm?id=522947163939" class="list_buy_btn" target="_blank">
+									<a href="https://detail.tmall.com/item.htm?id=520991913671" class="list_buy_btn" target="_blank">
 										<span class="go-buy">前往购买</span>
 									</a>
 								</span>
@@ -56,20 +56,20 @@
 						<div class="v1-silder-border">
 							<i class="v1-silder-flag"></i>
 							<span class="v1-silder-img">
-								<a href="https://detail.tmall.com/item.htm?id=13721009589" target="_blank"><img src="http://i.huim.com/contents/14736448631374.jpg!290x290.jpg"></a>
+								<a href="https://detail.tmall.com/item.htm?id=534983874688" target="_blank"><img src="http://i.huim.com/contents/14743388328979.jpg!290x290.jpg"></a>
 							</span>
 							<div class="v1-silder-div">
 								<span class="v1-silder-title">
-									<a href="https://detail.tmall.com/item.htm?id=13721009589" target="_blank">减肥监督者# 香山 精准电子称体重秤</a>
+									<a href="https://detail.tmall.com/item.htm?id=534983874688" target="_blank">高腰显瘦# 格年 破洞薄款牛仔裤</a>
 								</span>
 								<span class="v1-silder-price">
-									39元包邮
+									25元包邮
 								</span>
 								<span class="v1-silder-desc">
-									这款体重计有室温测量，BMI指数测量的功能，采用钢化玻璃，达6mm，并且增加了防爆科技元素，可承重量达360斤，安全环保。重量感应，自动开关机，使用方便。
+									这款牛仔裤有多个款式选择，破洞高腰款和高腰无破洞款，其实这两年特别流行破洞款式，又时候洞破的越多，越时尚哦，裤脚还是毛边设计，拉长个人比例，高腰款还很显瘦，深色比较好搭配各系衣服哦~
 								</span>
 								<span class="v1-silder-buy">
-									<a href="https://detail.tmall.com/item.htm?id=13721009589" class="list_buy_btn" target="_blank">
+									<a href="https://detail.tmall.com/item.htm?id=534983874688" class="list_buy_btn" target="_blank">
 									<span class="go-buy">前往购买</span>
 									</a>
 								</span>
@@ -80,20 +80,20 @@
 						<div class="v1-silder-border">
 							<i class="v1-silder-flag"></i>
 							<span class="v1-silder-img">
-								<a href="https://detail.tmall.com/item.htm?id=537170774197" target="_blank"><img src="http://i.huim.com/contents/14735982653482.jpg!290x290.jpg"></a>
+								<a href="https://detail.tmall.com/item.htm?id=521600442595" target="_blank"><img src="http://i.huim.com/contents/14743373443979.jpg!290x290.jpg"></a>
 							</span>
 							<div class="v1-silder-div">
 								<span class="v1-silder-title">
-									<a href="https://detail.tmall.com/item.htm?id=537170774197" target="_blank">冬天不臃肿# 雅鹿 男女加绒保暖内衣套装</a>
+									<a href="https://detail.tmall.com/item.htm?id=521600442595" target="_blank">岩石草 男士珊法兰绒居服</a>
 								</span>
 								<span class="v1-silder-price">
-									29.9元包邮
+									39.9元包邮
 								</span>
 								<span class="v1-silder-desc">
-									雅鹿纯棉薄款保暖内衣，纯棉材质，亲肤贴身，经典圆领设计，贴合颈部线条，简约大方。加绒更保暖，活动自如不束缚~
+									这款男士家居服，采用柔软质地的法兰绒面料，不仅保暖，穿着舒适细腻，不起球不掉色~还有多种款式可选~
 								</span>
 								<span class="v1-silder-buy">
-									<a href="https://detail.tmall.com/item.htm?id=537170774197" class="list_buy_btn" target="_blank">
+									<a href="https://detail.tmall.com/item.htm?id=521600442595" class="list_buy_btn" target="_blank">
 									<span class="go-buy">前往购买</span>
 									</a>
 								</span>
@@ -108,12 +108,12 @@
 			<div class="v1-adver-list">
 				<ul class="cf">
 					<li>
-						<img src="http://i.huim.com/zhuangji/14732323221806.jpg!/fw/440/unsharp/true" alt="">
-						<a class="cover" href='<?php echo $this->createUrl("tejia",array("keyword"=>"裙")) ?>' ><br/>胸小又怎样<br/><font size="3">穿衣就是比你好看</font></a>
+						<img src="http://i.huim.com/zhuangji/14741315796948.jpg!/fw/220" alt="">
+						<a class="cover" href='<?php echo $this->createUrl("tejia",array("keyword"=>"旅行箱")) ?>' ><br/>箱约去旅行<br/><font size="3">下一站是哪里</font></a>
 					</li>
 					<li>
-						<img src="http://i.huim.com/zhuangji/14725506496219.jpg!/fw/440/unsharp/true" alt="">
-						<a  class="cover" href='<?php echo $this->createUrl("tejia",array("keyword"=>"婴")) ?>' ><br/>白领妈咪不慌乱<br/><font size="3">育儿神器来帮忙</font></a>
+						<img src="http://i.huim.com/zhuangji/14742864934760.jpg!/fw/220" alt="">
+						<a  class="cover" href='<?php echo $this->createUrl("tejia",array("keyword"=>"按摩器")) ?>' ><br/>爸<br/><font size="3">我回来了</font></a>
 					</li>
 				</ul>
 			</div>

@@ -73,8 +73,9 @@
 		<a href="http://zshpldbz.com/">今日特价网</a>
 		<a href="http://www.smzdm.com/">值得买</a>
 		<a href="http://hao.360.cn/" target="_blank" >360导航</a>
+		<a href="http://123sogou.com" target="_blank">搜狗</a>
+		<a href="http://www.hao123.com" target="_blank">hao123</a>
 		<a href="http://www.114la.com" target="_blank">114啦网址导航</a><br/>
-		
 		<a href="http://www.ytx.la">深圳微告传媒有限公司</a>&nbsp;<span style="font-size:10px;">版权所有</span>&nbsp;<a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备16010927号-1</a><br/>
 	</div>
 </div>
