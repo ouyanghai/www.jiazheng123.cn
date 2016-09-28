@@ -3,9 +3,9 @@
 <head>
 <meta name="baidu-site-verification" content="SRhzdpnaLs" />
 <meta charset="utf-8"/>
-<title><?php echo $this->menu[$this->action->id]['title'] ?></title>
+<title><?php if(isset($this->menu[$this->action->id])){echo $this->menu[$this->action->id]['title'];}else{echo "惠购网";} ?></title>
 <meta name="keywords" content="今日特价，超低价，九块九，九块九包邮，超值，品牌折扣，值得买，惠时尚"/>
-<meta name="description" content="<?php echo $this->menu[$this->action->id]['des'] ?>"/>
+<meta name="description" content="<?php if(isset($this->menu[$this->action->id])){echo $this->menu[$this->action->id]['title'];}else{echo "";} ?>"/>
 <link rel="stylesheet" href="<?php echo $this->assets['app'] ?>/css/index.css">
 <link rel="shortcut icon" href="<?php echo $this->assets['app'] ?>/images/hui.png" mce_href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="<?php echo $this->assets['app'] ?>/css/site.css">

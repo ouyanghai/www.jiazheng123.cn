@@ -62,10 +62,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		*/
 		'db'=>array(
-			'connectionString' => 'mysql:host=192.168.1.122;dbname=taobao_app',
+			'connectionString' => 'mysql:host=23.248.162.241;dbname=web',
 			'emulatePrepare' => true,
-			'username' => 'admin',
-			'password' => 'admin',
+			'username' => 'debug',
+			'password' => 'hdp@5C01',
 			'charset' => 'utf8',
 			'tablePrefix' => ''
 		),
