@@ -8,6 +8,9 @@ i,em{font-style:normal}
 b{font-weight:400}
 html{color:#000;background:#f6f6f6;font:12px "\5B8B\4F53", sans-serif}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}
+body{
+	position: relative;
+}
 table{border-collapse:collapse;border-spacing:0}
 fieldset,img{border:0}
 address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font-style:normal;font-weight:normal}
@@ -645,9 +648,122 @@ img{width:100%;height:100%;display:block}
 .cont_err .lk{position:relative;display:block;width:142px;padding-left:37px;height:30px;font:normal 18px/30px "\5FAE\8F6F\96C5\9ED1";color:#FFF;background:#eb4d42;margin:0 auto;cursor:pointer;_line-height:34px;overflow:hidden;-webkit-transition:background-color .2s ease-out;-moz-transition:background-color .2s ease-out;-o-transition:background-color .2s ease-out;transition:background-color .2s ease-out}
 .cont_err .lk:hover{background-color:#fd5d51}
 .cont_err .icon{position:absolute;right:28px;top:9px;width:9px;height:13px;overflow:hidden;background-position:-7px -78px}
-.tb_ad{width:120px;height:200px;position:fixed;bottom:124px;left:50%;margin-left:520px}
-.tb_ad .tit{height:30px;font:normal 16px/30px Microsoft Yahei;background:#ff6537;text-align:center;color:#fff}
-.tb_ad .info{height:170px;position:relative}
+.tb_ad{
+	width:340px;
+	height:370px;
+	position:fixed;
+	border:1px solid red;
+	bottom:2px;
+	left:0;
+	margin-left:2px;
+}
+.lunbo{
+	display: block;
+	position: relative;
+	width:340px;
+	height:340px;
+	overflow: hidden;
+	padding:5px;
+}
+.lunbo li{
+display: block;
+width:100%;
+height:100%;
+position: absolute;
+
+}
+.lunbo li .info{
+	height:158px;
+	position:relative;
+	float:left;
+	margin-top:3px;
+	margin-left:3px;
+	border:1px solid #ababab;
+	/*
+	position: absolute;
+	top:0;
+	left:0;
+	opacity: 0;
+	z-index: 0;
+	transition:opacity 1s;
+	-webkit-transition:opacity 1s;
+	-moz-transition:opacity 1s;
+	-o-transition:opacity 1s;
+	*/
+}
+.tb_ad .tit{
+	display: block;
+	height:30px;
+	width:100%;
+	font:normal 16px/30px Microsoft Yahei;
+	background:#ff6537;
+	text-align:center;
+	color:#fff
+}
+.tb_ad .tit .td_ad_flag{
+	display:block;
+	width:30px;
+	height:30px;
+	background:url("../images/tb_ad_flag.png") no-repeat;
+	float:left;
+}
+.tb_ad .tit .td_ad_close{
+	display:inline-block;
+	width:17px;
+	height:17px;
+	cursor: pointer;
+	line-height: 17px;
+	margin-top:7px;
+	margin-right:10px;
+	float:right;
+	background:url("../images/close.png") no-repeat;
+}
+.tb_ad .tit h2{
+	margin-left:10px;
+	float:left;
+}
 .tb_ad .info a{display:block;width:100%;height:100%}
-.tb_ad .info a img{display:block;width:120px;height:170px}
-.tb_ad .info .name{position:absolute;bottom:0;left:0;z-index:2;width:120px;height:24px;line-height:24px;text-align:center;color:#fff;background:rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#7f000000', endColorstr='#7f000000')}
+.tb_ad .info a img{
+	display:block;
+	width:158px;
+	height:158px
+}
+.tb_ad .info .name{
+	position:absolute;
+	overflow: hidden;
+	bottom:0;
+	left:0;
+	z-index:2;
+	width:158px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	color:#fff;
+	background:rgba(0,0,0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#7f000000', endColorstr='#7f000000')
+}
+
+.tb_ad_tejia{width:120px;height:200px;position:fixed;bottom:124px;left:50%;margin-left:520px}
+.tb_ad_tejia .tit_tejia{height:30px;font:normal 16px/30px Microsoft Yahei;background:#ff6537;text-align:center;color:#fff}
+.tb_ad_tejia .info_tejia{height:170px;position:relative}
+.tb_ad_tejia .info_tejia a{display:block;width:100%;height:100%}
+.tb_ad_tejia .info_tejia a img{display:block;width:120px;height:170px}
+.tb_ad_tejia .info_tejia .name_tejia{position:absolute;bottom:0;left:0;z-index:2;width:120px;height:24px;line-height:24px;text-align:center;color:#fff;background:rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#7f000000', endColorstr='#7f000000')}
+.lunbo_tejia{
+	display: block;
+	position: relative;
+	width:120px;
+	height:170px;
+	overflow: hidden;
+}
+.lunbo_tejia li{
+	position: absolute;
+	top:0;
+	left:0;
+	opacity: 0;
+	z-index: 0;
+	transition:opacity 1s;
+	-webkit-transition:opacity 1s;
+	-moz-transition:opacity 1s;
+	-o-transition:opacity 1s;
+}

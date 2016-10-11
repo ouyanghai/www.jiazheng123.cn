@@ -27,6 +27,9 @@ class UserController extends TopController{
 		$file = $this->niuren."/mobile/sjdp/getshop?sid={$_GET['sid']}&cid={$ccid}";
 		$content = file_get_contents($file);
 		$data = json_decode($content,true);
+		if(empty($data)){
+			$data = json_decode(substr($content,3),true);
+		}
 		if(!empty($data['error_no'])){
 				header("refresh:5;url=http://www.jiazheng123.cn");
 				echo "<div style='width:600px;margin:0 auto;text-align:center;'>".$data['error_info'].",5秒后回自动<a href='http://www.jiazheng123.cn'>跳转</a>到网站首页</div>";	
@@ -52,6 +55,9 @@ class UserController extends TopController{
 		$file = $this->niuren."/mobile/sjdp/getitem?sid={$_GET['sid']}&cid={$ccid}&page={$page}";
 		$content = file_get_contents($file);
 		$data = json_decode($content,true);
+		if(empty($data)){
+			$data = json_decode(substr($content,3),true);
+		}
 		if(!empty($data['error_no'])){
 			if($data['error_no'] == 1){
 				echo "<div style='width:600px;margin:0 auto;text-align:center;'>".$data['error_info']."</div>";	
@@ -78,6 +84,9 @@ class UserController extends TopController{
 		$file = $this->niuren."/mobile/sjdp/getdesc?sid={$_GET['sid']}&cid={$ccid}";
 		$content = file_get_contents($file);
 		$data = json_decode($content,true);
+		if(empty($data)){
+			$data = json_decode(substr($content,3),true);
+		}
 		if(!empty($data['error_no'])){
 			if($data['error_no'] == 1){
 				echo "<div style='width:600px;margin:0 auto;text-align:center;'>".$data['error_info']."</div>";	

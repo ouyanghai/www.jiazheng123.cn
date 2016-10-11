@@ -109,5 +109,23 @@
 		</div>
 	</div>
     <?php } ?>
+    <div class="tb_ad_tejia" id="tb_ad" style="" pbflag="taobaoad">		    
+		<h2 class="tit_tejia">淘宝热搜</h2>		    
+		<ul class="lunbo_tejia">
+			<?php foreach ($ldata as $value) { 
+				if($value['sid'] == 35418517){continue;}
+			?>
+					<li>
+					<div class="info_tejia" >		        
+						<a target="_blank" href="http://item.taobao.com/item.htm?id=<?php echo $value['iid'] ?>" target="_blank">
+							<img src="<?php echo $value['pic_url'] ?>">		        
+						</a>		        
+						<span class="name_tejia"><?php echo $value['title'] ?></span>		    
+					</div>			
+				</li>
+
+			<?php } ?>
+		</ul>
+	</div>
 </div>
 <a href="###" id="to_top" class="to_top add_ml550" rel="nofollow" title="返回顶部" style="display: inline;">回顶部</a>

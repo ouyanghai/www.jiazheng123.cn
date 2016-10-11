@@ -28,6 +28,7 @@
 				<span class="tleft"></span>
 				<span class="tright"></span>
 				<ul>
+					<?php if(empty($dao_res)){ ?>
 					<li style="display: block">
 						<div class="v1-silder-border">
 							<i class="v1-silder-flag"></i>
@@ -100,6 +101,34 @@
 							</div>
 						</div>
 					</li>
+					<?php }else{ ?>
+						<?php foreach ($dao_res as $value) { if($value['status']==1){?>
+							<li style="display: none">
+						<div class="v1-silder-border">
+							<i class="v1-silder-flag"></i>
+							<span class="v1-silder-img">
+								<a href="<?php echo $value['link'] ?>" target="_blank"><img src="<?php echo $value['pic'] ?>"></a>
+							</span>
+							<div class="v1-silder-div">
+								<span class="v1-silder-title">
+									<a href="<?php echo $value['link'] ?>" target="_blank"><?php echo $value['title'] ?></a>
+								</span>
+								<span class="v1-silder-price">
+									<?php echo $value['price'] ?>
+								</span>
+								<span class="v1-silder-desc">
+									<?php echo $value['desc'] ?>
+								</span>
+								<span class="v1-silder-buy">
+									<a href="<?php echo $value['link'] ?>" class="list_buy_btn" target="_blank">
+									<span class="go-buy">前往购买</span>
+									</a>
+								</span>
+							</div>
+						</div>
+					</li>
+						<?php }} ?>
+					<?php } ?>
 				</ul>
 			</div>
 		</div>
@@ -107,6 +136,7 @@
 		<div class="v1-adver-wrap" pbflag="头部小图">
 			<div class="v1-adver-list">
 				<ul class="cf">
+					<?php if(empty($dao_res)){ ?>
 					<li>
 						<img src="http://i.huim.com/zhuangji/14741315796948.jpg!/fw/220" alt="">
 						<a class="cover" href='<?php echo $this->createUrl("tejia",array("keyword"=>"旅行箱")) ?>' ><br/>箱约去旅行<br/><font size="3">下一站是哪里</font></a>
@@ -115,6 +145,14 @@
 						<img src="http://i.huim.com/zhuangji/14742864934760.jpg!/fw/220" alt="">
 						<a  class="cover" href='<?php echo $this->createUrl("tejia",array("keyword"=>"按摩器")) ?>' ><br/>爸<br/><font size="3">我回来了</font></a>
 					</li>
+					<?php }else{ ?>
+						<?php foreach ($dao_res as $value) { if($value['status']==2){?>
+							<li>
+								<img src="<?php echo $value['pic']; ?>" alt="">
+								<a  class="cover" href='<?php echo $this->createUrl("tejia",array("keyword"=>$value['link'])) ?>' ><br/><?php echo $value['title']; ?><br/><font size="3"><?php echo $value['desc']; ?></font></a>
+							</li>
+						<?php }} ?>
+					<?php } ?>
 				</ul>
 			</div>
 		</div>
@@ -141,6 +179,5 @@
 
 <!--to top-->
 <a href="###" id="to_top" class="to_top add_ml550" rel="nofollow" title="返回顶部" style="display: none;" pbflag="右侧电梯">回顶部</a>
-
 
 <?php $this->endContent(); ?>

@@ -2,20 +2,36 @@ var LIST_LI = 1;
 var LIST_LI_TOTAL = 4;
 var LUNBO_TOTAL = 0;
 var LUNBO_LI = 1;
+
+var TEJIA_LUNBO_TOTAL = 0;
+var TEJIA_LUNBO_LI = 1;
+
 $(function(){
 	$(".banner_list li").eq(0).css("z-index",1).css("opacity",1);
 	$(".round a").eq(0).css("background-color","#fb4472");
 	$(".cur").parent().css("display",'block');
+
 	$(".lunbo li").eq(0).css("z-index",1).css("opacity",1);
 	LUNBO_TOTAL = $(".lunbo li").length;
-	setInterval(function(){
-		listGo();
-		LIST_LI = LIST_LI>=LIST_LI_TOTAL-1 ? 0 : LIST_LI+1;
-	},3000);
 	setInterval(function(){
 		lunboGo();
 		LUNBO_LI = LUNBO_LI>=LUNBO_TOTAL-1 ? 0 : LUNBO_LI+1;
 	},3000);
+	//商家
+	$(".lunbo_tejia li").eq(0).css("z-index",1).css("opacity",1);
+	TEJIA_LUNBO_TOTAL = $(".lunbo li").length;
+	setInterval(function(){
+		tejiaLunboGo();
+		TEJIA_LUNBO_LI = LUNBO_LI>=TEJIA_LUNBO_TOTAL-1 ? 0 : LUNBO_LI+1;
+	},3000);
+
+	setInterval(function(){
+		listGo();
+		LIST_LI = LIST_LI>=LIST_LI_TOTAL-1 ? 0 : LIST_LI+1;
+	},3000);
+	
+	
+
 	$(".banner_list,.banner_arrow").mouseover(function(){
 		$(".banner_arrow").css("display","block");
 	}).mouseout(function(){
@@ -47,7 +63,10 @@ $(function(){
 		$(".erwei").css("display",'block');
 	}).mouseout(function(){
 		$(".erwei").css("display",'none');
-	})
+	});
+	$(".tb_ad .tit .td_ad_close").click(function(){
+		$(".tb_ad").hide();
+	});
 
 });
 function listGo(){
@@ -60,4 +79,8 @@ function listGo(){
 function lunboGo(){
 	$(".lunbo li").css("z-index",0).css("opacity",0);
 	$(".lunbo li").eq(LUNBO_LI).css("z-index",1).css("opacity",1);
+}
+function tejiaLunboGo(){
+	$(".lunbo_tejia li").css("z-index",0).css("opacity",0);
+	$(".lunbo_tejia li").eq(TEJIA_LUNBO_LI).css("z-index",1).css("opacity",1);
 }

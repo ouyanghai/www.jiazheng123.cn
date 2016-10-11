@@ -209,21 +209,3 @@
 	border:none;
 	width:20px;
 }
-.lunbo{
-	display: block;
-	position: relative;
-	width:120px;
-	height:170px;
-	overflow: hidden;
-}
-.lunbo li{
-	position: absolute;
-	top:0;
-	left:0;
-	opacity: 0;
-	z-index: 0;
-	transition:opacity 1s;
-	-webkit-transition:opacity 1s;
-	-moz-transition:opacity 1s;
-	-o-transition:opacity 1s;
-}
