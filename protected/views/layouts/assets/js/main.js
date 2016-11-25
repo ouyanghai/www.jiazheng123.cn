@@ -19,10 +19,10 @@ $(function(){
 	},3000);
 	//商家
 	$(".lunbo_tejia li").eq(0).css("z-index",1).css("opacity",1);
-	TEJIA_LUNBO_TOTAL = $(".lunbo li").length;
+	TEJIA_LUNBO_TOTAL = $(".lunbo_tejia li").length;
 	setInterval(function(){
 		tejiaLunboGo();
-		TEJIA_LUNBO_LI = LUNBO_LI>=TEJIA_LUNBO_TOTAL-1 ? 0 : LUNBO_LI+1;
+		TEJIA_LUNBO_LI = TEJIA_LUNBO_LI>=TEJIA_LUNBO_TOTAL-1 ? 0 : TEJIA_LUNBO_LI+1;
 	},3000);
 
 	setInterval(function(){

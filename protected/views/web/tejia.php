@@ -228,24 +228,31 @@
 		</div>
 	</div>
 
-	<div class="tb_ad" id="tb_ad" style="" pbflag="taobaoad">		    
-		<h2 class="tit">淘宝热搜</h2>		    
-		<ul class="lunbo">
-			<?php foreach ($ldata as $value) { 
-				if($value['sid'] == 35418517){continue;}
-			?>
-				<li>
-					<div class="info" >		        
-						<a target="_blank" href="http://item.taobao.com/item.htm?id=<?php echo $value['iid'] ?>" target="_blank">
-							<img src="<?php echo $value['pic_url'] ?>">		        
-						</a>		        
-						<span class="name"><?php echo $value['title'] ?></span>		    
-					</div>			
-				</li>
-			<?php } ?>
-		</ul>
-	</div>
+	
 </div>
+<div class="tb_ad" id="tb_ad" style="" pbflag="taobaoad">		    
+	<span class="tit">
+		<i class="td_ad_flag"></i>
+		<h2>今日特卖</h2>
+		<i class="td_ad_close"></i>
+	</span>
+	<ul class="lunbo">
+		<?php foreach ($ldata as $key => $value) { 
+			//if($value['sid'] == 35418517){continue;}
+		?>
+			<li>
+				<?php foreach ($value as $val) { ?>
+				<div class="info" >		        
+					<a target="_blank" href="http://item.taobao.com/item.htm?id=<?php echo $val['iid'] ?>" target="_blank">
+						<img src="<?php echo $val['pic_url'] ?>">		        
+					</a>		        
+					<span class="name"><?php echo $val['title'] ?></span>		    
+				</div>			
+				<?php } ?>
+			</li>
 
+		<?php } ?>
+	</ul>
+</div>
 <!--to top-->
 <a href="###" id="to_top" class="to_top add_ml550" rel="nofollow" title="返回顶部" style="display: none;" pbflag="右侧电梯">回顶部</a>

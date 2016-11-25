@@ -12,6 +12,7 @@ class WebController extends TopController{
 	public $niuren = "http://120.55.151.16/";
 	public function init(){
 		parent::init();
+		ini_set('date.timezone','Asia/Shanghai');
 	}
 
 	public function actionIndex(){
@@ -41,8 +42,8 @@ class WebController extends TopController{
 		$pages = $res['pages'];
 		$data = $res['item'];
 		$ldata = array();
-		for($i=0;$i<count($res['item']);$i+=4){
-			$ldata[] = array_slice($res['item'],$i,4);	
+		for($i=0;$i<count($res['litem']);$i+=4){
+			$ldata[] = array_slice($res['litem'],$i,4);	
 		}
 		
 		$res = '';
@@ -137,7 +138,7 @@ class WebController extends TopController{
 			$price = $_POST['price'];
 			$link = $_POST['link'];
 			$desc = $_POST['desc'];
-			$ctime = date('Y-m-d H:i:s',time());
+			$ctime = date("Y-m-d H:i:s");
 			$res = $command->setText("select * from `huigou_item` where item_id={$item_id} and status=1")->queryRow();
 			if(empty($res)){
 				$sql = "insert into `huigou_item` (item_id,title,pic,link,price,ctime,`desc`,status) values('{$item_id}','{$title}','{$pic}','{$link}','{$price}','{$ctime}','{$desc}','{$status}')";
@@ -148,7 +149,7 @@ class WebController extends TopController{
 			$item_id += 1;
 			$this->redirect("/web/admin?code=35418517&item_id={$item_id}&status=1");
 			exit;
-		}else{
+		}else if($status == 2){
 			//宝贝查询
 			if(!empty($_POST['update']) && !empty($_POST['number'])){
 				$item_id = $_POST['number'];
@@ -182,8 +183,10 @@ class WebController extends TopController{
 			$item_id += 1;
 			$this->redirect("/web/admin?code=35418517&item_id={$item_id}&status=2");
 			exit;
+		}else{
+			
 		}
-		
+		$this->redirect("/web/admin?code=35418517&item_id={$item_id}&status={$status}");
 	}
 
 	public function actionShangjia(){
