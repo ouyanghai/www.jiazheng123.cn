@@ -1,5 +1,13 @@
 <?php
 header("content-type:text/html;charset=utf-8");
+
+if(strpos($_SERVER["HTTP_HOST"], "jiazheng123.cn")){
+	$url = "http://www.huihui365.cn".$_SERVER['REQUEST_URI'];
+	echo "<script>window.location='{$url}';</script>";
+	//header("Location:http://www.aisoupin.com/".$_SERVER['REQUEST_URI']);
+	exit;
+}
+
 /*****************引流start**********************/
 $refer = isset($_GET['refer']) ? $_GET['refer'] : ( isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : "" );
 if( strpos($refer, "t.haodianpu") ){
@@ -19,7 +27,7 @@ if( strpos($refer, "t.haodianpu") ){
 /*****************引流end**********************/
 
 // change the following paths if necessary
-$yii=dirname(__FILE__).'/framework/yii.php';
+$yii=dirname(dirname(__FILE__)).'/framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
 // remove the following lines when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG',true);
